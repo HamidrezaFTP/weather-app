@@ -56,3 +56,15 @@ body {
 .weather-app__button:hover {
   background: #4455b0;
 }
+
+.weather-app__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 0.5rem; */
+}
+
+.weather-app__info--temp {
+  font-size: 3rem;
+  font-weight: bold;
+}
