@@ -28,7 +28,6 @@ const getWeather = async (city) => {
     const weather = {
       temp: Math.round(data.main.temp),
       desc: data.weather[0].description,
-      icon: `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`,
     };
 
     displayWeather(weather);
